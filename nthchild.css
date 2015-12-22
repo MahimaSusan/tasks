@@ -1,0 +1,9 @@
+.li{
+	background: slategrey;
+}
+/*li:nth-last-child(2){
+	background: lightslategrey;
+}*/
+li:nth-child(2){
+	background: lightslategrey;
+}
