@@ -1,0 +1,135 @@
+#mobile-screen{
+	width: 240px;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #000;
+    background-color: lightgrey;
+}
+#app-header{
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-bottom: 1px solid #CCC;
+    height: 33px;
+    padding: 2px;
+    z-index: 3;
+    box-shadow: 10px 10px 5px #888888;
+   /* box-shadow: 0px 0px 12px rgba(57, 70, 78, 0.45);*/
+   background-color: lightblue;
+}
+#drawer{
+	    position: absolute;
+    top: 37px;
+    padding-top: 50px;
+    height: auto;
+    width: 180px;
+    background: none repeat scroll 0% 0% #2F2F2F;
+    overflow-x: hidden;
+    overflow-y: auto;
+    bottom: 34px;
+    transition: all 1s ease 0s;
+
+    left: -250px;
+    z-index: 2;
+}
+#app-footer{
+	position: absolute;
+    border-top: 1px solid #CCC;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 33px;
+    z-index: 3;
+    box-shadow: 0px 0px 10px 2px rgba(57, 70, 78, 0.45);
+ }
+#header-wraper{
+	position: relative;
+	left: 0px;
+	right: 0px;
+}
+#hamburger{
+	border: 1px solid #374C77;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px 4px;
+    position: relative;
+    width: 25px;
+    background-color: darkblue;
+    /*background: linear-gradient(to bottom, #4569B2 0%, #4062A5 100%) repeat scroll 0% 0% transparent;
+    */float: left;
+}
+#hamburger div{
+	background-color: #FFF;
+    border: 1px solid #EEE;
+    border-radius: 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+
+}
+#logo{
+	font-size: 16px;
+    color: #3E443C;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+#content{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 40px;
+	bottom: 40px;
+	overflow: auto;
+}
+#back{
+	float: right;
+}
+#menu{
+	float: left;
+    margin-left: 5px;
+}
+#home{
+	float: left;
+}
+#app-footer div{
+	height: 100px;
+	text-align: center;
+	display: inline-block;
+	box-sizing:border-box;
+	padding: 8px;
+	width: 78px;
+	cursor: pointer;
+}
+#drawer ul{
+	list-style: outside none none;
+	padding: 0px;
+	
+}
+#drawer li{
+	margin: 0px;
+	width: 175px;
+	padding: 10px 0px;
+}
+#drawer li a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+ #drawer.drawer_left{
+        transition: 1s;
+        left:0px;
+        }
+ 
+        #drawer li a:hover {
+            background-color:grey;
+        }
+        #drawer { 
+        	padding-top: 10px;
+        	 }

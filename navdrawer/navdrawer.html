@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../navdrawer/navdrawer.css">
+    </head>
+    <body>
+        <div id="mobile-screen">
+            <div id="app-header">
+                <div id="header-wraper">
+                    <div id="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <span id="logo">
+                My App</span>
+            </div>
+            <nav id="drawer" class="drawer-left">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"> About us</a>
+                    </li>
+                    <li><a href="#"> Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="content">
+                <p>ssssssss</p>
+                <p>ssssssss</p>
+                <p>ssssssss</p>
+                <p>ssssssss</p>
+                <p>ssssssss</p>
+                <p>ssssssss</p>
+                <p>ssssssss</p><p>ssssssss</p><p>ssssssss</p>
+            </div>
+            <div id="app-footer">
+                <div id="home">Home</div>
+                <div id="menu">Menu</div>
+                <div id="back">Back</div>
+            </div>
+        </div>
+        <script type="text/javascript">
+
+                document.getElementById('hamburger').addEventListener('click',drawer, false);
+                function  drawer(){
+                document.getElementById('drawer').classList.toggle('drawer_left');
+                }
+                
+        </script>
+    </body>
+</html>
