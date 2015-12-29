@@ -1,0 +1,123 @@
+.content{
+    position: absolute;
+    width: 496px;
+    height: 23100px;
+    padding-bottom: 20;
+    padding-right: 10px;
+    float: left;
+    margin-right: 0;
+    left: 272px;
+    background-color: #e9eaed;
+    color: #141823;
+    line-height: 2.34;
+    font-size: 12px;
+    direction: ltr;
+}
+.post-detail{
+    position: relative;
+    width: 470px;
+    height: 324px;
+    padding: 12px 12px 0;
+    background-color: #fff;
+    /*border: 1px solid black;*/
+}
+.post-head{
+    position: absolute;
+    height: 31px;
+    width: 493px;
+    /*border: 1px solid black;*/
+    top: 0;
+    left: 0;
+    box-shadow: 10px 10px 5px blue;
+}
+.user-profile{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /*border: 1px solid black;*/
+    cursor: pointer;
+   }
+.user-update{
+    position: absolute;
+    height: 20px;
+    width: 461px;
+    left: 32px;
+    font-family: helvetica, arial, sans-serif;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 5px;
+    background-color: lightblue;
+}
+.post-footer{
+    position: absolute;
+    height: 30px;
+    width: 493px;
+    /*border: 1px solid black;*/
+    bottom: 0;
+    left: 0;
+    /*cursor: pointer;*/
+    background-color: lightblue;
+    box-shadow: 10px 10px 5px blue;
+}
+.fb-like{
+    position: absolute;
+    height: 30px;
+    width: 32px;
+    /*border: 1px solid black;*/
+    cursor: pointer;
+    left: 15px;
+}
+
+.fb-comment{
+    position: absolute;
+    height: 30px;
+    width: 32px;
+    
+    left: 165px;
+    cursor: pointer;
+}
+.fb-share{
+    position: absolute;
+    height: 30px;
+    width: 32px;
+   
+    left: 340px;
+    cursor: pointer;
+}
+.post{
+    position: absolute;
+    height: 265px;
+    width: 480px;
+    /*border: 1px solid black;*/
+    left: 10px;
+    top: 38px;
+    cursor: pointer;
+}
+.likes{
+    position: absolute;
+    height: 25px;
+    width: 100px;
+    /*border: 1px solid black;*/
+    left: 30px;
+}
+.comments{
+    position: absolute;
+    height: 25px;
+    width: 100px;
+    /*border: 1px solid black;*/
+    left: 186px;
+}
+.share{
+    position: absolute;
+    height: 25px;
+    width: 100px;
+    /*border: 1px solid black;*/
+    left: 360px;
+}
+.post-time{
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    /*border: 1px solid black;*/
+    left: 340px;
+}
