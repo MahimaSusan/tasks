@@ -1,0 +1,106 @@
+.post{
+    position: relative;
+    margin: 10% auto;
+    box-shadow: 0px 0px 12px rgba(57, 70, 78, 0.45);
+    width: 490px;
+    padding: 20px 12px;
+}
+.content{
+    padding-left: 65px;
+}
+.user-name{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+.profile-pic img{
+    float: left;
+    height: 44px;
+    width: 44px;
+}
+.content span a {
+    color: blue;
+    text-decoration: none;
+    font-size: 12px;
+}
+.time{
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+}
+.comment-body{
+     overflow: auto;
+    margin-top: 10px;
+}
+.likenum{
+    color: rgba(0, 46, 243, 0.92);
+    font-size: 12px;
+}
+.likenum span {
+    color: black;
+    font-size: 12px;
+}
+.friends_comments {
+    overflow: auto;
+    margin-top: 10px;
+}
+.friends_comments img {
+    float: left;
+    height: 33px;
+    width: 33px;
+}
+.span_comment {
+    float: left;
+}
+.friend_name {
+    color: rgba(0, 46, 243, 0.92);
+    float: left;
+    margin-left: 9px;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.comment_time {
+    display: block;
+    width: 316px;
+    margin-left: 9px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 12px;
+}
+.comment_content {
+    margin-left: 5px;
+}
+.comment-input img {
+    float: left;
+    height: 33px;
+    width: 33px;
+}
+.comment_input input {
+    height: 30px;
+    border: 1px solid #999;
+    margin-left: 10px;
+    margin-top: 4px;
+    border-radius: 4px;
+    padding: 4px;
+}
+a.morelink {
+    text-decoration:none;
+    outline: none;
+}
+.morecontent span {
+    display: none;
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 17px;
+}
+.content p {
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 17px;
+}

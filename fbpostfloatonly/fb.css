@@ -1,0 +1,229 @@
+.site-header{
+
+	height: 88px;
+	width: 1270px;
+	z-index: 10;
+    top: 0px;
+    background-color: rgba(0, 3, 255, 0.76);
+    position: relative;
+   
+
+}
+@media(min-width: 400px){
+
+.content{
+	margin: 0% auto;
+	height: 500px;
+	width: 700px;
+	border: 1px solid black;
+	margin-left: 250px;
+	box-shadow: 5px 5px 5px #25477B;
+    /*margin-top: 90px;*/
+}}
+.user-post{
+	/*position: absolute;*/
+	float: left;
+	height: 150px;
+	width: 729px;
+	}
+.profile-image{
+	/*position: absolute;*/
+	float: left;;
+	height: 75px;
+	width: 75px;
+	float: left;
+	/*border: 1px solid black;*/
+	
+}
+.username{
+	/*position: absolute;*/
+	float: left;
+	height: 25px;
+	width: 653px;
+	/*border: 1px solid black;*/
+	left: 76px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0137F0;
+    font-family: "Times New Roman", Times, bold 12px serif;
+   
+
+}
+.post{
+	/*position: absolute;*/
+	float: left;
+
+	height: 125px;
+	width: 625px;
+	/*border: 1px solid black;*/
+	top: 26px;
+	left: 76px;
+	font-size: 12px;
+    padding-top: 6px;
+
+}
+.link-list{
+
+	float: left;
+	height: 20px;
+	width: 653px;
+	/*border: 1px solid black;*/
+    margin-left: 75px;
+	top: 158px;
+	left: 76px;
+}
+.like{
+	/*position: absolute;*/
+	float: left;
+	height: 20px;
+	width: 50px;
+	font-size: 12px;
+    color: #25477B;
+	top: 0px;
+	left: -1px;
+	/*border: 1px solid black;*/
+	cursor: pointer;
+}
+.comment{
+	/*position: absolute;*/
+	float: left;
+	height: 20px;
+	width: 60px;
+	font-size: 12px;
+    color: #25477B;
+	top: 0px;
+	left: 55px;
+	/*border: 1px solid black;*/
+	cursor: pointer;
+}
+.share{
+	/*position: absolute;*/
+	float: left;
+	height: 20px;
+	width: 60px;
+	font-size: 12px;
+    color: #25477B;
+	top: 0px;
+	left: 122px;
+	/*border: 1px solid black;*/
+	cursor: pointer;
+	margin-left: 10px;
+}
+.post-time{
+	/*position: absolute;*/
+	float: left;
+	height: 20px;
+	width: 155px;
+	font-size: 10px;
+    color: #58677E;
+	top: 0px;
+	left: 193px;
+	/*border: 1px solid black;*/
+	margin-left: 10px;
+}
+.likes{
+	
+	float: left;
+	height: 25px;
+	width: 200px;
+	/*border: 1px solid black;*/
+	top: 180px;
+	left: 76px;
+	margin-left: 75px;
+	
+}
+.people-like{
+
+	float: left;
+	height: 25px;
+	width: 200px;
+	/*border: 1px solid black;*/
+	font-size: 12px;
+	color: #0039FF;
+	display: inline;
+	margin-top: -17px;
+	margin-left: 17px;
+}
+.comments{
+	
+	float: left;
+	height: 65px;
+	width: 653px;
+	/*border: 1px solid black;*/
+	/*top: 207px;*/
+    left: 76px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.c-image{
+	
+	height: 65px;
+	width: 65px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.type-comment{
+	
+	float: left;
+	height: 65px;
+	width: 653px;
+	/*border: 1px solid black;*/
+	top: 340px;
+	left: 76px;
+	margin-left: 75px;
+}
+.text-area{
+	float: left;
+	height: 65px;
+	width: 586px;
+	left: 66px;
+	top: -1px;
+	/*border: 1px solid black;*/
+	margin-top: -68px;
+	margin-left: 66px;
+}
+#type-msg{
+	float: left;
+	height: 62px;
+	width: 548px;
+	resize:none;
+	box-shadow: 5px 5px 5px  #25477B;
+
+}
+.c-user{
+	position: absolute;
+	height: 40px;
+	width: 586px;
+	/*border: 1px solid black;*/
+	font-size: 12px;
+	font-weight: bold;
+	color:black;
+}
+.c-footer{
+	position: absolute;
+	height: 24px;
+	width: 586px;
+	/*border: 1px solid black;*/
+	/*top:249px;*/
+	margin-top: 40px;
+}
+.c-time{
+	position: absolute;
+	height: 24px;
+	width: 180px;
+	/*border: 1px solid black;*/
+    color: #6E6EE1;
+	font-size: 10px;
+
+}
+.c-like{
+	position: absolute;
+	height: 24px;
+	width: 404px;
+	/*border: 1px solid black;*/
+	left: 180px;
+	font-size: 12px;
+	 color: #25477B;
+	 cursor: pointer;
+}

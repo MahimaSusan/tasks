@@ -1,6 +1,12 @@
+
+@media (min-width: 400px) {
+   }
+@media(min-width: 400px){
 .content{
-    position: absolute;
-    width: 496px;
+    /*position: absolute;*/
+    float: left;
+    margin-left: 400px;
+    width: 374px;
     height: 23100px;
     padding-bottom: 20;
     padding-right: 10px;
@@ -12,35 +18,38 @@
     line-height: 2.34;
     font-size: 12px;
     direction: ltr;
-}
+    margin-top: 45px;
+}}
 .post-detail{
-    position: relative;
-    width: 470px;
+    /*position: relative;*/
+    width: 355px;
     height: 324px;
     padding: 12px 12px 0;
     background-color: #fff;
     /*border: 1px solid black;*/
 }
 .post-head{
-    position: absolute;
+    float: left;
+    margin-top: -12px;
     height: 31px;
-    width: 493px;
+    width: 342px;
     /*border: 1px solid black;*/
     top: 0;
     left: 0;
     box-shadow: 10px 10px 5px blue;
 }
 .user-profile{
-    position: absolute;
+    float: left;
+    margin-left: 0px;
     height: 30px;
     width: 30px;
     /*border: 1px solid black;*/
     cursor: pointer;
    }
 .user-update{
-    position: absolute;
+    float: left;
     height: 20px;
-    width: 461px;
+    width: 312px;
     left: 32px;
     font-family: helvetica, arial, sans-serif;
     text-align: left;
@@ -49,75 +58,90 @@
     background-color: lightblue;
 }
 .post-footer{
-    position: absolute;
+    float: left;
+    margin-left: 2px;
     height: 30px;
-    width: 493px;
+    width: 340px;
     /*border: 1px solid black;*/
     bottom: 0;
     left: 0;
     /*cursor: pointer;*/
     background-color: lightblue;
     box-shadow: 10px 10px 5px blue;
+ 
 }
 .fb-like{
-    position: absolute;
+    float: left;
+
     height: 30px;
-    width: 32px;
+    width: 105px;
     /*border: 1px solid black;*/
     cursor: pointer;
     left: 15px;
 }
 
 .fb-comment{
-    position: absolute;
+    float: left;
     height: 30px;
-    width: 32px;
+    width: 115px;
     
     left: 165px;
     cursor: pointer;
 }
 .fb-share{
-    position: absolute;
+    float: left;
+    margin-top: -25px;
     height: 30px;
-    width: 32px;
+    width: 115px;
    
     left: 340px;
     cursor: pointer;
 }
 .post{
-    position: absolute;
+    float: left;
+    margin-left: 2px;
+    margin-top: 10px;
     height: 265px;
-    width: 480px;
+    width: 345px;
     /*border: 1px solid black;*/
     left: 10px;
     top: 38px;
     cursor: pointer;
 }
 .likes{
-    position: absolute;
+    float: left;
+    font-size: 11px;
+    margin-left: -90px;
     height: 25px;
-    width: 100px;
+    width: 95px;
     /*border: 1px solid black;*/
     left: 30px;
 }
 .comments{
-    position: absolute;
+    float: left;
+    margin-left: -90px;
+    font-size: 11px;
     height: 25px;
     width: 100px;
     /*border: 1px solid black;*/
     left: 186px;
 }
 .share{
-    position: absolute;
+    float: right;
+    margin-top: -30px;
     height: 25px;
     width: 100px;
     /*border: 1px solid black;*/
     left: 360px;
+    font-size: 11px;
 }
 .post-time{
-    position: absolute;
+    float: left;
+    margin-left: 161px;
+    margin-top: -22px;
     height: 25px;
     width: 150px;
     /*border: 1px solid black;*/
-    left: 340px;
+    left: 204px;
+    font-size: 11px;
 }
