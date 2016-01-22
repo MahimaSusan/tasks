@@ -18,7 +18,7 @@ body{
 	height: 100%;
 	font-family: Asap Bold;
 }
-header {
+/*header {
     width: 100%;
     height: 60px;
     top: 0;
@@ -26,15 +26,49 @@ header {
     left: 0;
     background-color: #ffffff;
     z-index: 999;
-}
+}*/
 .header{
+	
+	box-shadow: 0px 0px 0px 0px;
+	height: 82px;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	background-color: #fff;
+	width: 100%;
+	margin-left: 1%;
+}
+.link{
+	
+	height: 80px;
+	width: 33%;
+	float: left;
+	display: inline-block;
+}
+.logo{
+	height: 80px;
+	max-width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.icons{
+	height: 80px;
+	width: 33%;
+	float: right;
+	
+	display: inline-block;
+}
+
+/*.header{
 	height: 50px;
 	max-width: 100%;
-}
+}*/
 .header1{
 	background-image: url("slices/bg1_repeat.png");
 	height: 15%;
-	padding-top: 1px;
+	/*padding-top: 1px;*/
+	padding-top: 100px;
 }
 .header1 img{
 }
@@ -43,7 +77,7 @@ header {
 	margin-left: -3%;
 	margin-right: 2%;
 }
-.logo {
+/*.logo {
     max-width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -53,8 +87,8 @@ header {
 .logo img{
 	margin-right: auto;
 	margin-left: auto;
-}
-.icons { 
+}*/
+/*.icons { 
    height: 50px;
    max-width: 20%;
    margin-top: -4%;
@@ -65,6 +99,12 @@ header {
 }
 .icon2{
 	float: right;
+}*/
+.icons ul{
+	float: right;
+}
+.icons ul li {
+    display: inline;
 }
 .nav {
     height: 50px;
@@ -86,6 +126,24 @@ header {
     text-decoration: none;
     padding-right: 5px;
 }
+.link ul li {
+    display: inline;
+}
+
+.link ul li a {
+    font-family: Asap Bold;
+    font-size: 18px;
+   
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.link1{
+	color: #333333;
+}
+.link2{
+	color: #999999;
+}
 .bottom_footer{
 	height: 10px;
 }
@@ -106,7 +164,7 @@ header {
 .content{
 	height: 60%;
 }
-.footer1{
+/*.footer1{
 	height: 20px;
 	margin-bottom: 0px;
 	background-color: black;
@@ -114,7 +172,7 @@ header {
 .above_footer{
 	height: 50px;
 	background-image: url("slices/bg2.png");
-}
+}*/
 
 .c1{
 	height: 20%;
@@ -212,9 +270,9 @@ header {
 	margin-left: 25%;
 	margin-right: 8%;
 }
-.footer1 img{
+/*.footer1 img{
 	height: 5%;
-	width: 5%;*/
+	width: 5%;
 	height: 20px;
 	width: 20px;
     margin-left: 35%;
@@ -223,16 +281,16 @@ header {
 	font-size: 5px;
 	text-align: center;
 	color: white;
-}
+}*/
 .p7{
 	text-align: center;
 	font-size: 10px;
 	color: white;
 }
-.footer1 p{
+/*.footer1 p{
 	font-size: 10px;
 	color: white;
-}
+}*/
 .button_class{
 	max-width: 310px;
 	margin-right: auto;
@@ -280,11 +338,26 @@ header {
 	background-color: #333333;
 	margin-top: -2%;
 }
-.hand-image{
+/*.hand-image{
 	height: 280px;
 	max-width: 80%;
 	margin-right: auto;
 	margin-left: auto;
+}*/
+/*.hand-image{
+	height: 280px;
+	max-width: 40%;
+	margin-right: auto;
+	margin-left: 10%;
+	display: inline-block;
+}*/
+.hand-image{
+	
+	width: 20%;
+	height: 280px;
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
 }
 .hand-image img{
 	
@@ -295,11 +368,20 @@ header {
 	color: #ffffff;
 } 
 .footer-head{
-	margin-top: -25%;
+	
+	height: 260px;
+	width: 30%;
+	display: inline-block;
+	margin-top: 4%;
+
+}
+/*.footer-head{
+	/*margin-top: -25%;*/
+	/*margin-top: -20%;
 	max-width: 52%;
 	margin-left: auto;
 	margin-right: auto;
-}  
+}  */
 .last-footer{
 	height: 50px;
 	max-width: 200px;
@@ -408,7 +490,7 @@ header {
 .second-footer{
 	height: 103px;
 	background-color: #333333;
-	margin-top: 0%;
+	margin-top: -3%;
 }
 .hand-image{
        height: 100px;
@@ -418,35 +500,51 @@ header {
 }
 .hand-image img{
 	margin-left: auto;
-	max-width: 40%;
+	max-width: 100%;
 	height: 100px;
 }
 .last-footer{
 	height: 50px;
-	margin-top: 10%;
+	margin-top: 0%;
 }
 .img1{
 	
      
 }
-.logo {
+.logo{
+
+}
+.logo img {
+	width: 100%;
+
+}
+/*.logo {
     max-width: 50%;
     height: 50px;
     margin-left: auto;
-    margin-top: -15%;
+    margin-top: 0%;
     margin-right: auto;
 }
 .logo img{
 	margin-left: auto;
 	margin-right: auto;
+}*/
+.header div{
+
 }
-.link1{
+.link3{
+
+}
+.link{
+
+}
+/*.link1{
       float: left;
       margin-left: -10%;
 }
 .link2{
 
-}
+}*/
 .nav {
     height: 50px;
     width: 100%;
@@ -469,6 +567,8 @@ header {
 }
 .link2{
 	float: right;
+	margin-top: 0%;
+	margin-right: -310%;
 }
 .icons {
 	display: none; 
@@ -489,12 +589,7 @@ header {
 }
 }
 @media only screen and (min-width: 850px) and (max-width: 1100px){
-  .footer-head{
-  	max-width: 30%;
-  	margin-top: -30%;
-  	margin-left: auto;
-  	margin-right: auto;
-  }
+ 
   .footer-head p{
   	font-family: Asap Bold;
   	font-size: 40pt;
@@ -502,12 +597,7 @@ header {
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 849px){
-	.footer-head{
-		max-width: 30%;
-		margin-top: -36%;
-		margin-right: auto;
-		margin-left: auto;
-	}
+	
 	.footer-head p{
 		font-family: Asap Bold;
 		font-size: 35pt;
@@ -516,10 +606,10 @@ header {
 }
 @media only screen and (min-width: 600px) and (max-width:699px ){
 	.footer-head{
-		max-width: 30%;
-		margin-top: -45%;
-		margin-right: auto;
-		margin-left: auto;
+		height: 260px;
+		width: 30%;
+		margin-top: 10%;
+		display: inline-block;
 	}
 	.footer-head p{
 		font-family: Asap Bold;
@@ -529,10 +619,12 @@ header {
 }
 @media only screen and (min-width: 500px) and (max-width: 599px){
 	.footer-head{
-		max-width: 30%;
-		margin-top: -50%;
-		margin-left: auto;
-		margin-right: auto;
+		height: 260px;
+		width: 30%;
+		margin-top: 10%;
+		display: inline-block;
+		margin-left: 10%;
+
 	}
 	.footer-head p{
 		font-family: Asap Bold;
@@ -541,12 +633,7 @@ header {
 	}
 }
 @media only screen and (min-width: 400px) and (max-width: 499px){
-	.footer-head{
-	max-width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: -25%;
-}
+	
 .footer-head p{
 	color: #ffffff;
 	margin-left: 22%;
@@ -557,12 +644,7 @@ header {
 
 }
 @media only screen and (max-width: 399px){
-	.footer-head{
-		max-width: 30%;
-		margin-top: -30%;
-		margin-right: auto;
-		margin-left: auto;
-	}
+	
 	.footer-head p{
 		font-family: Asap Bold;
 		font-size: 15pt;
