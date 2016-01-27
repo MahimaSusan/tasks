@@ -1,0 +1,19 @@
+var users = new Usercollection([{
+    id: 1,
+    name: 'Tom'
+   
+}, {
+    id: 2,
+    name: 'Sam'
+    
+}, {
+    id: 3,
+    name: 'Ron'
+   
+}]);
+
+var root = new Root({
+    "users": users
+       
+});
+root.render();
